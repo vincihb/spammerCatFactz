@@ -1,0 +1,12 @@
+Hello!
+
+Did you know:
+
+{0}
+
+That's one cool cat fact!
+
+Thank you for subscribing to CatFactz™. To cancel your subscription, or to provide feedback, please reply directly to this email with the word "CANCEL" in your message.
+
+Best,
+The CatFactz™ team
