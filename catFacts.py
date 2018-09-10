@@ -1,10 +1,22 @@
-import smtplib
+import smtplib, json
 from email.mime.text import MIMEText
 
-with open('basicEmail.txt', 'r') as myfile:
-    basicEmail=myfile.read()
+def send_first_email():
+    with open('basicEmail.txt', 'r') as myfile:
+        basicEmail=myfile.read()
+    
+    print(basicEmail);
 
-print(basicEmail);
+def get_preferences():
+    with open('preferences.txt', 'r') as prefText:
+        preferences = prefText.read()
+    
+    return json.loads(preferences)
+
+send_first_email();
+
+
+
 
 #catFactz = open(catFactsText.txt
 
