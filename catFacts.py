@@ -1,11 +1,10 @@
 import smtplib
 from email.mime.text import MIMEText
 
-basicEmail = open(basicEmail.txt, 'rb')
-msg = MIMEText(basicEmail.read())
-basicEmail.close()
+with open('basicEmail.txt', 'r') as myfile:
+    basicEmail=myfile.read()
 
-print(msg);
+print(basicEmail);
 
 #catFactz = open(catFactsText.txt
 
